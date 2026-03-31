@@ -1,0 +1,15 @@
+<div class="main-container">
+  <div #canvasContainer class="canvas-bg"></div>
+
+  <div class="phone-stage">
+    <img src="/phone.png" style="width: 100%">
+    
+    <div class="text-overlay">
+      @for (msg of messages; track $index) {
+        @if (msg.displayedText) {
+          <div [class]="'bubble ' + msg.side">{{ msg.displayedText }}</div>
+        }
+      }
+    </div>
+  </div>
+</div>
