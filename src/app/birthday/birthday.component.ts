@@ -75,8 +75,9 @@ export class BirthdayComponent implements OnInit, OnDestroy {
     this.startTypingEffect();
   }
 
-  private startTypingEffect() {
-    let cumulativeDelay = 800;
+ private startTypingEffect() {
+    // 1. You can increase the initial wait time if you like
+    let cumulativeDelay = 800; 
 
     this.messages.forEach((msg) => {
       setTimeout(() => {
@@ -85,16 +86,16 @@ export class BirthdayComponent implements OnInit, OnDestroy {
           if (charIndex < msg.text.length) {
             msg.displayedText += msg.text[charIndex];
             charIndex++;
-            // Scroll down as each character is typed
             this.scrollToBottom();
           } else {
             clearInterval(typing);
           }
-        }, 45);
+        }, 80); // <--- INCREASE THIS (Was 45). Higher number = Slower typing.
       }, cumulativeDelay);
 
-      // Calculate delay: typing time + pause before next bubble
-      cumulativeDelay += msg.text.length * 45 + 1500;
+      // 2. Adjust the total delay to match the slower speed
+      // Formula: (Number of characters * typing speed) + pause between bubbles
+      cumulativeDelay += (msg.text.length * 80) + 2000; 
     });
   }
 
