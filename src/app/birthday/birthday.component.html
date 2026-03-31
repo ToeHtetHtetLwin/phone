@@ -1,24 +1,33 @@
 <div class="main-container" *ngIf="currentUser">
-  <!-- Background Canvas -->
   <div #canvasContainer class="canvas-bg"></div>
 
-  <!-- Phone Stage -->
-  <div class="phone-stage">
-    <img src="/phone.png" style="width: 100%" alt="phone">
-    
-    <div class="text-overlay">
-      @for (msg of messages; track $index) {
-        @if (msg.displayedText) {
-          <div [class]="'bubble ' + msg.side">
-            {{ msg.displayedText }}
-          </div>
+  <div class="content-wrapper">
+    <div *ngIf="!isStarted" class="start-magic-trigger">
+      <button class="play-btn" (click)="startMagic()">
+        Tap to Start Magic ✨
+      </button>
+    </div>
+
+    <div class="photo-wrapper" #personalPhoto>
+      <img [src]="currentUser.photo || '/assets/default.jpg'" class="personal-img" alt="Person">
+    </div>
+
+    <div class="phone-stage" *ngIf="isStarted">
+      <img src="/phone.png" class="phone-img" alt="phone">
+      
+      <div class="text-overlay">
+        @for (msg of messages; track $index) {
+          @if (msg.displayedText) {
+            <div [class]="'bubble ' + msg.side">
+              {{ msg.displayedText }}
+            </div>
+          }
         }
-      }
+      </div>
     </div>
   </div>
 </div>
 
-<!-- Loading State -->
 <div *ngIf="!currentUser" class="loader">
   <p>Loading Birthday Magic...</p>
 </div>
