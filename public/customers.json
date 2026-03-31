@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Soulmate",
+    "heartColor": "#ff1e56",
+    "messages": [
+      { "text": "To my favorite person in the world... 🌎❤️", "side": "left" },
+      { "text": "You're the glow in my darkest days. ✨", "side": "right" },
+      { "text": "Every moment with you is a gift. 🎁", "side": "left" },
+      { "text": "Happy Birthday, My Soulmate! 🎂💖", "side": "right" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Bestie",
+    "heartColor": "#00dbde",
+    "messages": [
+      { "text": "HBD to my partner in crime! 🥂", "side": "left" },
+      { "text": "Another year of bad decisions together. 😂", "side": "right" },
+      { "text": "Love ya! 💖", "side": "left" }
+    ]
+  }
+]
