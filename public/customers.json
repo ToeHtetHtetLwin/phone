@@ -9,7 +9,7 @@
         "text": "Knowing that my husband is unwell while away makes his wife's heart truly heavy.❤️",
         "side": "left"
       },
-         {
+      {
         "text": " But please, husband, stay strong and keep in mind that we will be getting married as soon as we reunite.🌎❤️",
         "side": "left"
       },
@@ -17,7 +17,7 @@
         "text": "Husband’s health is more important to his wife than anything else in the world.❤️",
         "side": "right"
       },
-       {
+      {
         "text": " Please take your medicine regularly, get plenty of rest, and focus on a speedy recovery.❤️",
         "side": "right"
       },
@@ -25,7 +25,7 @@
         "text": " Don't feel lonely, husband, because your wife is always right there with you in spirit. 🎁",
         "side": "left"
       },
-    
+
       {
         "text": "Please come back to me soon; your wife will always be waiting for you.💖",
         "side": "right"
@@ -34,13 +34,28 @@
   },
   {
     "id": 2,
-    "name": "Bestie",
-    "heartColor": "#00dbde",
-    "music": "/assets/soulmate-song.mp3",
+    "name": "Crush",
+    "heartColor": "#ff1e56",
+    "music": "/confess.mp3",
     "messages": [
-      { "text": "HBD to my partner in crime! 🥂", "side": "left" },
-      { "text": "Another year of bad decisions together. 😂", "side": "right" },
-      { "text": "Love ya! 💖", "side": "left" }
+      { "text": "Htet Htet… ❤️", "side": "left" },
+      {
+        "text": "From the very first moment I saw you, I unknowingly started to like you.💞",
+        "side": "right"
+      },
+      {
+        "text": "I can’t even explain why… maybe it’s because of your smile, or just the way you are.❤️‍🔥",
+        "side": "left"
+      },
+      {
+        "text": "Rather than just watching you from afar like this,💘",
+        "side": "left"
+      },
+        {
+        "text": "I’d like to get a little closer to you…💘",
+        "side": "left"
+      }
+
     ]
   }
 ]
