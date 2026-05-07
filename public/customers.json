@@ -25,7 +25,6 @@
         "text": " Don't feel lonely, husband, because your wife is always right there with you in spirit. 🎁",
         "side": "left"
       },
-
       {
         "text": "Please come back to me soon; your wife will always be waiting for you.💖",
         "side": "right"
@@ -38,7 +37,10 @@
     "heartColor": "#ff1e56",
     "music": "/confess.mp3",
     "messages": [
-      { "text": "Htet Htet… ❤️", "side": "left" },
+      {
+        "text": "Htet Htet… ❤️",
+        "side": "left"
+      },
       {
         "text": "From the very first moment I saw you, I unknowingly started to like you.💞",
         "side": "right"
@@ -51,11 +53,38 @@
         "text": "Rather than just watching you from afar like this,💘",
         "side": "left"
       },
-        {
+      {
         "text": "I’d like to get a little closer to you…💘",
         "side": "left"
       }
-
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Crush",
+    "heartColor": "#ff1e56",
+    "music": "/confess.mp3",
+    "messages": [
+      {
+        "text": "Hello ​ကောင်မ​လေး​ရေ..❤️",
+        "side": "left"
+      },
+      {
+        "text": "စ​တွေ့ကတည်းကချစ်​နေခဲ့မိတာ💞",
+        "side": "right"
+      },
+      {
+        "text": "ဖွင့်မ​ပြောရဲလို့ တိတ်တိတ်​လေးပဲ❤️‍🔥",
+        "side": "left"
+      },
+      {
+        "text": "ခိုးချစ်​နေမိတယ်💘",
+        "side": "left"
+      },
+      {
+        "text": "ကိုယ့်ကိုပြန်ချစ်​​ပေးပါ​နော်💘",
+        "side": "left"
+      }
     ]
   }
 ]
